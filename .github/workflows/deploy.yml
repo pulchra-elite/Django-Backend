@@ -41,7 +41,7 @@ jobs:
               mkdir django
               cd django
               git clone https://github.com/VictorKudrin/Django.git
-              
+              cd mydjango
       - name: Deployed successfully
         run: |
-          python manage.py runserver
+          #python manage.py runserver
