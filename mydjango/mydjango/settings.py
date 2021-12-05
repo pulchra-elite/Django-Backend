@@ -23,9 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-qliqx8_tl8tl938l6ds^7h01ff!_$p9dcg$n$gg_jqml&^5+i('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'testingthetrade.com',
+    'www.testingthetrade.com'
+]
 
 
 # Application definition
